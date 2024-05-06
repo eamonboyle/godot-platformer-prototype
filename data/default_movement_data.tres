@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="PlayerMovementData" load_steps=2 format=3 uid="uid://bd1ldpjcw8dp7"]
+
+[ext_resource type="Script" path="res://scripts/player_movement_data.gd" id="1_qm2xk"]
+
+[resource]
+script = ExtResource("1_qm2xk")
+speed = 100.0
+acceleration = 800.0
+friction = 1000.0
+jump_velocty = -250.0
+gravity_scale = 0.8
+air_resistance = 200.0
+air_acceleration = 500.0
